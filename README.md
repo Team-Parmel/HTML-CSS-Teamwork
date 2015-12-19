@@ -12,11 +12,11 @@ Used code
   -HTML
   -CSS
   -JavaScript
+  
 ###Pages:
-
-  1.Index
-    -Some info
-  2.SoftUni Team
-    -Some info
-  3.Previous Winners
-    -Some info
+####1.Index
+  -Some info
+####2.SoftUni Team
+  -Some info
+####3.Previous Winners
+  -Some info
