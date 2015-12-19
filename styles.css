@@ -1,0 +1,51 @@
+#wrapper{
+    width: 90%;
+    margin: 2% auto;
+}
+body{
+    font-size: 20px;
+    font-family: Arial;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+header{
+    text-align: center;
+}
+#main-header {
+    border: 1px solid black;
+}
+aside header{
+    font-size: 1em;
+    margin: 2% 0;
+}
+aside {
+    width: 25%;
+    border: 1px solid black;
+    margin-top: 1%;
+    box-sizing: border-box;
+
+}
+aside>section{
+    font-size: 0.7em;
+    padding-left: 10%;
+}
+
+main {
+    width: 70%;
+    height: 500px;
+    float: right;
+    border: 1px solid black;
+    margin-top: 1%;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+footer{
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
