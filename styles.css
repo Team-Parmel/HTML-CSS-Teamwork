@@ -25,19 +25,24 @@ aside {
     border: 1px solid black;
     margin-top: 1%;
     box-sizing: border-box;
+    display: inline-block;
+    padding: 0 1%;
 
 }
 aside>section{
     font-size: 0.7em;
     padding-left: 10%;
+    border: 1px solid black;
+    margin: 3% 0;
 }
 
 main {
-    width: 70%;
+    width: 73%;
     height: 500px;
     float: right;
     border: 1px solid black;
     margin-top: 1%;
+    display: inline-block;
 }
 .clearfix:after{
     content: "";
