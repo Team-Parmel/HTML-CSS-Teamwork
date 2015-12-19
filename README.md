@@ -5,7 +5,7 @@ This is a Teamwork project for Team Parmel for their HTML/CSS course at SoftUni 
 ## Стани Богат със SoftUni
 Участвай в Живото предаване "Стани Богат Програмист @SoftUni"
 
-#### This is a project for internet site:
+### This is a project for internet site:
 (place link here, when available)
 
 Used code
