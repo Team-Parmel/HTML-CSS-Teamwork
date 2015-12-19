@@ -9,9 +9,18 @@ body{
 h1{
     font-size: 40px;
     font-weight: bold;
+    display: inline;
 }
 header{
     text-align: center;
+}
+#logo{
+    display: inline;
+    width: 15%;
+    margin: 0.5% 2%;
+}
+#intro{
+    max-width: 100%;
 }
 #main-header {
     border: 1px solid black;
@@ -52,5 +61,7 @@ main {
 }
 footer{
     border: 1px solid black;
-    margin-bottom: 10px;
+    position: absolute;
+    width: 90%;
+    bottom: 5%;
 }
