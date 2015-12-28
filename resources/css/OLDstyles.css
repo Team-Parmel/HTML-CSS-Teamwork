@@ -21,6 +21,12 @@ header{
 }
 #intro{
     max-width: 100%;
+    float: right;
+}
+section button{
+    display: block;
+    margin: 1% 1% 1% 50%;
+    width: 30%;
 }
 #main-header {
     border: 1px solid black;
@@ -36,32 +42,32 @@ aside {
     box-sizing: border-box;
     display: inline-block;
     padding: 0 1%;
+    float: left;
 
 }
-aside>section{
+aside section{
     font-size: 0.7em;
     padding-left: 10%;
     border: 1px solid black;
     margin: 3% 0;
 }
+.main-section{
 
+}
 main {
-    width: 73%;
-    height: 500px;
-    float: right;
+    width: 100%;
     border: 1px solid black;
     margin-top: 1%;
     display: inline-block;
 }
 .clearfix:after{
-    content: "";
+    content: " ";
     display: block;
     clear: both;
     height: 0;
 }
 footer{
     border: 1px solid black;
-    position: absolute;
-    width: 90%;
-    bottom: 5%;
+    width: 100%;
+
 }
