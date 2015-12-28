@@ -1,0 +1,79 @@
+@import url("navbar-color.css");
+
+@import url("../fonts/font-awesome-4.5.0/css/font-awesome.min.css");
+
+@font-face {
+    font-family: Anonymous;
+    src: url(../fonts/Anonymous_Pro.ttf);
+}
+
+body {
+    font-size: 16px;
+}
+
+.jumbotron a {
+    font-size: 40px;
+}
+
+@media all and (max-width: 1200px) {
+    /* screen size until 1200px */
+    body, .jumbotron a {
+        font-size: 1.5em; /* 1.5x default size */
+    }
+}
+
+@media all and (max-width: 1000px) {
+    /* screen size until 1000px */
+    body, .jumbotron a, div p.white {
+        font-size: 1.2em; /* 1.2x default size */
+    }
+}
+
+.jumbotron {
+    background-color: #234465;
+    padding: 2% 0 0 0;
+    height: 20%;
+    margin: 0;
+}
+
+.jumbotron a {
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: #ffa000;
+    text-transform: uppercase;
+}
+
+#logo {
+    width: 10%;
+}
+
+.white {
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+nav {
+    border-radius: 0 !important;
+}
+.menu-tweets{
+    color: #fff;
+    font-size: 1.8em;
+    margin: 10px 10px 0 10px;
+}
+.menu-tweets:hover, .menu-tweets:focus{
+    text-decoration: none;
+    color: #ffa000;
+}
+#search{
+
+}
