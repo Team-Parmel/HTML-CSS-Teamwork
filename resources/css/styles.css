@@ -19,15 +19,15 @@ body {
 @media all and (max-width: 1200px) {
     /* Responsive font */
     /* screen size until 1200px */
-.jumbotron a, #text-resize {
-        font-size: 1.3em; /* 1.5x default size */
+    .jumbotron a, #text-resize {
+        font-size: 1.2em; /* 1.2x default size */
     }
 }
 
 @media all and (max-width: 1000px) {
     /* Responsive font */
     /* screen size until 1000px */
-.jumbotron a, div p.white,.text-resize {
+    .jumbotron a, div p.white, .text-resize {
         font-size: 1.2em; /* 1.2x default size */
     }
 }
@@ -234,4 +234,48 @@ nav {
 
 .winners-text {
     color: #3c0e4c;
+}
+
+.winners-header{
+    margin: 2% 5%;
+    color: #234465;
+    font-size: 20px;
+    font-family: Verdana;
+
+}
+
+/********EKIP*******/
+
+.figure-caption {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3px;
+    color: #234465;
+    font-weight: bold;
+}
+
+.ekip-text {
+    margin-top: 30px;
+    color: #234465;
+    font-family: Verdana;
+}
+
+#Nakov {
+    font-style: italic;
+}
+
+@media all and (max-width: 1000px) {
+
+    .ekip-text {
+        margin-top: 0;
+    }
+}
+
+div.ekip-text > a {
+    color: blue;
+    font-style: italic;
+}
+
+.ekip-text.no-margin {
+    margin-top: 0;
 }
