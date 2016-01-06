@@ -284,3 +284,44 @@ div.ekip-text > a {
 .ekip-text.no-margin {
     margin-top: 0;
 }
+
+
+/******QUESTIONS********/
+
+.panel-heading.question-panel {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #3c0e4c;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #dddddd;
+    border-radius: 0;
+}
+
+.panel-body.question-panel {
+    background-color: white;
+    text-align: left;
+    margin: 5px;
+}
+
+.question-text {
+    font-size: 2em;
+    color: #ffa000;
+    text-align: center;
+}
+
+.panel-body.question-panel .answers {
+    margin-top: 5px;
+    border: 2px solid #ffa000;
+    border-radius: 30px;
+    background-color: #162B40;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: center;
+}
+
+.answers a {
+    text-decoration: none;
+    color: #ffa000;
+
+}
