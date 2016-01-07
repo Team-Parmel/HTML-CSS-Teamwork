@@ -140,11 +140,6 @@ nav {
 
 /*********** MAIN ***********/
 
-#myCarousel {
-   width: 97%;
-}
-
-
 /*********** ASIDE ***********/
 .well > a > h3 {
     margin-bottom: 15px;
@@ -241,7 +236,7 @@ nav {
     color: #3c0e4c;
 }
 
-.winners-header {
+.winners-header{
     margin: 2% 5%;
     color: #234465;
     font-size: 20px;
@@ -285,7 +280,6 @@ div.ekip-text > a {
     margin-top: 0;
 }
 
-
 /******QUESTIONS********/
 
 .panel-heading.question-panel {
@@ -324,4 +318,20 @@ div.ekip-text > a {
     text-decoration: none;
     color: #ffa000;
 
+}
+
+#i-want {
+    width: 10em;
+  background-color: #ffa000;
+  border-radius: 30px;
+  border: 3px solid #162B40;
+  color: #162B40;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
 }
