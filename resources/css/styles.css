@@ -314,10 +314,26 @@ div.ekip-text > a {
     vertical-align: center;
 }
 
+.panel-body.question-panel .answers:hover {
+    margin-top: 5px;
+    border: 2px solid #162B40;
+    border-radius: 30px;
+    background-color: #ffa000;
+    font-size: 1.5em;
+    text-align: center;
+    vertical-align: center;
+}
+
 .answers a {
     text-decoration: none;
     color: #ffa000;
 
+}
+
+.answers a:hover {
+    text-decoration: none;
+    color: #162B40;
+    font-weight: bold;
 }
 
 #i-want {
@@ -326,6 +342,22 @@ div.ekip-text > a {
   border-radius: 30px;
   border: 3px solid #162B40;
   color: #162B40;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#i-want:hover {
+    width: 10em;
+  background-color: #162B40;
+  border-radius: 30px;
+  border: 3px solid #ffa000;
+  color: #ffa000;
   cursor: pointer;
   display: inline-block;
   font-family: Arial;
