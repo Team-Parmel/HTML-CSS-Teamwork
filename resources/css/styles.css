@@ -62,12 +62,13 @@ body {
 }
 
 /* Pulse Grow */
-@-webkit-keyframes hvr-pulse-grow {
+
+/*@-webkit-keyframes hvr-pulse-grow {
     to {
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
     }
-}
+} PROBLEM THIS CANNOT BE VALIDATED!*/
 
 @keyframes hvr-pulse-grow {
     to {
@@ -134,11 +135,45 @@ nav {
     color: #ffa000;
 }
 
-#search {
+/*********** MAIN ***********/
 
+#myCarousel, #collapse {
+    width: 97%;
 }
 
-/*********** MAIN ***********/
+#collapse {
+    margin-top: 5%;
+}
+
+#collapse .panel-heading, #collapse > .panel.panel-default {
+    text-transform: uppercase;
+    background-color: #390a50;
+    color: white;
+}
+
+#collapse .panel-heading > h4 > a {
+    font-size: 2em;
+    text-shadow: 2px 2px #214058;
+}
+
+#collapse .panel-heading > h4 > a > span {
+    font-size: 0.5em;
+    color: #ffa000;
+}
+
+#collapse1 ul li {
+    background-color: #214058;
+    text-align: left;
+    text-transform: none;
+}
+
+.modal-content {
+    background-color: #ffa000;
+    color: #214058;
+    font-size: 2em;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
 
 /*********** ASIDE ***********/
 .well > a > h3 {
@@ -199,11 +234,6 @@ nav {
     background-color: #234465;
 }
 
-#main-section {
-    padding-right: 0;
-    padding-left: 0;
-}
-
 /************WINNERS!************/
 
 .winners-well {
@@ -236,7 +266,7 @@ nav {
     color: #3c0e4c;
 }
 
-.winners-header{
+.winners-header {
     margin: 2% 5%;
     color: #234465;
     font-size: 20px;
@@ -244,7 +274,7 @@ nav {
 
 }
 
-/********EKIP*******/
+/********Team*******/
 
 .figure-caption {
     text-align: center;
@@ -278,6 +308,37 @@ div.ekip-text > a {
 
 .ekip-text.no-margin {
     margin-top: 0;
+}
+
+/*************WHEEL**********/
+
+img#wheel {
+    margin-top: 10%;
+    width: 70%;
+}
+
+img#wheel {
+    -webkit-transition: all 1.3s ease-in-out;
+    -moz-transition: all 1.3s ease-in-out;
+    -o-transition: all 1.3s ease-in-out;
+    -ms-transition: all 1.3s ease-in-out;
+}
+
+img#wheel:hover {
+    -webkit-transform: rotate(360deg) scale(1.3);
+    -moz-transform: rotate(360deg) scale(1.3);
+    -o-transform: rotate(360deg) scale(1.3);
+    -ms-transform: rotate(360deg) scale(1.3);
+}
+
+#wheel-text{
+    margin-top: 21%;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    font-family: Verdana;
+    background-color: #3c0e4c;
+
 }
 
 /******QUESTIONS********/
@@ -338,32 +399,32 @@ div.ekip-text > a {
 
 #i-want {
     width: 10em;
-  background-color: #ffa000;
-  border-radius: 30px;
-  border: 3px solid #162B40;
-  color: #162B40;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Arial;
-  font-size: 30px;
-  font-weight: bold;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
+    background-color: #ffa000;
+    border-radius: 30px;
+    border: 3px solid #162B40;
+    color: #162B40;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
 }
 
 #i-want:hover {
     width: 10em;
-  background-color: #162B40;
-  border-radius: 30px;
-  border: 3px solid #ffa000;
-  color: #ffa000;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Arial;
-  font-size: 30px;
-  font-weight: bold;
-  padding: 5px 10px;
-  text-align: center;
-  text-decoration: none;
+    background-color: #162B40;
+    border-radius: 30px;
+    border: 3px solid #ffa000;
+    color: #ffa000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
 }

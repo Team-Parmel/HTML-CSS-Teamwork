@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="resources/js/js.js"></script>
     <link rel="stylesheet" type="text/css" href="resources/css/styles.css">
 </head>
 <body>
@@ -65,7 +66,7 @@
     <div class="row">
         <aside class="col-sm-3">
             <div class="panel panel-default">
-                <div class="panel-heading"><a href="winners.html"><p id="text-resize">ПОБЕДИТЕЛИ</p></a></div>
+                <div class="panel-heading"><a href="pobediteli.html"><p id="text-resize">ПОБЕДИТЕЛИ</p></a></div>
                 <div class="panel-body">
                     <div class="well text-center">
                         <a href="winners.html">
@@ -131,7 +132,7 @@
 
         </aside>
 
-        <section id="main-section container-fluid" class="col-sm-9">
+        <section id="main-section" class="col-sm-9">
                 <div id="myCarousel" class="carousel slide">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -170,10 +171,62 @@
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+
+            <div class="panel-group" id="collapse">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse1">Който Учи, Ще Стане Богат! <span>(прочети договора тук)</span></a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse">
+                        <ul class="list-group">
+                            <li class="list-group-item">1. Под "Учи" се има предвид, че се учи 24 часа в денонощието, иначе договора се счита за невалиден!</li>
+                            <li class="list-group-item">2. Под "Ще Стане" се има предвид, че има вероятност. Вероятността е около 10% до 15%.</li>
+                            <li class="list-group-item">3. Под "Богат" се има предвид в сравнение със средният доход за България към 12/ 2015</li>
+                        </ul>
+                        <div class="panel-footer">
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">ИСКАМ ДА СТАНА БОГАТ ВЪПРЕКИ ВСИЧКО!</button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">ПОЗДРАВЛЕНИЯ!</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>ТИ ВЕЧЕ СИ В ИГРАТА!</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Супер!</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <img src="resources/images/wheel.png" id="wheel" alt="Wheel pic"/>
+            </div>
+
+            <div id="wheel-text" class="well">
+                    <h2> А НА ВАС КОЛЕЛОТО НА КЪСМЕТА КАКВО ЩЕ ВИ ДОНЕСЕ?</h2>
+            </div>
         </section>
     </div>
 </main>
-
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+             src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+             alt="Valid CSS!" />
+    </a>
+</p>
 
 </body>
 </html>
